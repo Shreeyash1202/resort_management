@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>User Dashboard</title>
+    </head>
+    <title>linking</title>
+</head>
+<body>
+    <div  >
+        <img src="logobg.jpg" alt="logo" style="width: 20%" style="height:9%">
+        </div>
+        <br><br>
+        <center>
+    <button  class="btn btn-warning"  onclick="redirectToPage1()">users</button>
+    <button  class="btn btn-warning" onclick="redirectToPage2()">Bookings</button>
+</center>
+    <script>
+        // JavaScript functions to redirect to respective pages
+        function redirectToPage1() {
+            window.location.href = "add.php";
+        }
+
+        function redirectToPage2() {
+            window.location.href = "bookings.php";
+        }
+    </script>
+</body>
+</html>

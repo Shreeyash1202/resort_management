@@ -1,0 +1,697 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p.one {
+  word-spacing: 7px;
+}
+* {box-sizing: border-box;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+p.one {
+  word-spacing: 7px;
+}
+body{
+background-image: url('images/wallpaper6.jpg');
+background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: 100%;
+
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: right;
+  font-family:Bookman Old ;
+}
+.text a {
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.heading {
+    color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: center;
+  top: 300px;
+  width: 100%;
+  text-align: right;
+  font-family:Bookman Old ;
+}
+.logo {
+  color: #f2f2f2; 
+  padding: 8px 12px;
+  position: absolute;
+  top: 30px; 
+  width: 100%;
+  text-align: left;
+  
+}
+
+.text2 {
+  color: 00000;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolut;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  font-family:Bookman Old ;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+
+}
+
+
+.divbg {
+    background-color: #ffffff;
+    width: 100%;}
+.divbg2 {
+    background-color: #eeefdf;
+    width: 100%;}
+ .divbg3 {
+    background-color: #fff7d9;
+    width: 100%;}
+
+    .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(183, 185, 98); 
+  color: black; 
+ 
+}
+
+.button1:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+<!--edit-->
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img1 {
+  border-radius: 90%;
+}
+.iconDetails {
+ margin-left:2%;
+float: left;
+ 
+
+
+} 
+p1 {
+  
+  font-size: 15px;
+  line-height: 2;
+  margin: 200px;
+}
+
+.typeOfhackathon{
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data{
+    min-width: 400px;
+    margin: auto;
+}
+.text-container{
+    max-width: 600px;
+
+}
+.text-container h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+.text-container a{
+    text-decoration: none;
+    background: #030d94;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+}
+
+
+.phone-call {
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 50px;
+    position: fixed;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 99;
+  display: inline-block;
+  line-height: 65px;
+}
+
+.phone-call:before {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: -15px;
+    left: -15px;
+    background-color: #10b418;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    opacity: 0.6;
+    -webkit-animation: pulse 1s ease-out;
+    animation: pulse 1.8s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+    25% {
+        -webkit-transform: scale(0.3);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: scale(0.6);
+        opacity: .6;
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        opacity: .3;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(0.3);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.6);
+        opacity: .6;
+    }
+    75% {
+        transform: scale(0.9);
+        opacity: .3;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+</style>
+
+<!-- NAVBAR --> 
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script>
+      $(function() {
+         $("#includeHtml").load("nav.html");
+      });
+   </script>
+
+   <!---->
+</head>
+<body>
+ <!--dont touch-->
+ 
+ <div >
+
+  <!-- NAVBAR --> 
+  <div id="includeHtml"></div>
+  <!---->
+
+ <div class="divbg">
+
+                                <div class="slideshow-container">
+
+                                <div class="mySlides fade">
+
+                                    <img src="images/wallpaper4.jpg" style="width:100%" style="height:90%">
+                                    <div class="logo">
+                                    <img src="logobg.jpg" alt="logo" style="width: 17%" style="height:7%">
+                                    </div>
+                                    <div class="text">
+                                      <a href="contact.html">CONTACT US</a>
+                                        <a href="login.php"  >BOOK NOW</a>
+                                        <a href="finalaboutus.html">ABOUT</a>
+                                        <a href="package new.html">ROOM</a>
+                                        <a href="index.html">HOME</a>
+                                    </div>
+                                    
+                                    </div>
+                                    
+                                
+
+                                <div class="mySlides fade">
+
+                                    <img src="images/wallpaper2.jpg" style="width:100%" style="height:90%">
+                                    <div class="logo">
+                                        <img src="logobg.jpg" alt="logo" style="width: 17%" style="height:7%">
+                                        </div>
+                                        <div class="text">
+                                          <a href="contact.html">CONTACT US</a>
+                                          <a href="login.php"  >BOOK NOW</a>
+                                        <a href="finalaboutus.html">ABOUT</a>
+                                        <a href="package new.html">ROOM</a>
+                                        <a href="index.html">HOME</a>
+                                        </div>  </div>
+                               
+
+                                <div class="mySlides fade">
+
+                                <img src="images/wallpaper3.jpg" style="width:100%" style="height:90%">
+                                <div class="logo">
+                                    <img src="logobg.jpg" alt="logo" style="width: 17%" style="height:7%">
+                                    </div>
+                                    <div class="text">
+                                      <a href="contact.html">CONTACT US</a>
+                                      <a href="login.php" >BOOK NOW</a>
+                                        <a href="finalaboutus.html">ABOUT</a>
+                                        <a href="package new.html">ROOM</a>
+                                        <a href="index.html">HOME</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="mySlides fade">
+
+                                <img src="images/wallpaper1.jpg" style="width:100%" style="height:90%">
+                                <div class="logo">
+                                    <img src="logo.png" alt="logo" style="width: 17%" style="height:7%">
+                                    </div>
+                                    <div class="text">
+                                      <a href="contact.html">CONTACT US</a>
+                                      <a href="login.php" >BOOK NOW</a>
+                                        <a href="finalaboutus.html">ABOUT</a>
+                                        <a href="package new.html">ROOM</a>
+                                        <a href="index.html">HOME</a>
+                                    </div>
+                                </div>
+
+                                </div>
+                                <br>
+
+                                <div style="text-align:center">
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                </div>
+
+
+
+<!--call now-->
+ <div class="phone-call"><a href="https://wa.me/8104844520"><img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" width="55" alt="Call Now" title="Call Now"></a></div>
+<!---->
+<table style="width:100%">
+  <th style="width:100px">
+  <td>
+  
+         
+      <h1 style="font-size:300%; font-family:Bell MT;"> Experience one of a kind.</h1>
+      <p style="font-family:Candara;color: rgb(58, 55, 55);" class="one">Destination Wedding Resorts in Jaipur with Private Pool - Lohagarh Fort Resort is not just an award-winning property, instead, it's a royal and luxurious experience for each of our visitors.
+
+        We are nestled in the scenic Kukas Villages, with a fantastic view of the mighty Aravallis. Nature Ranches, which spans hundreds of acres of pristine landscape, is home to the Lohagarh Fort Resort. The four divine elements that inspired the resort are Earth, Nature, Habitat, and Art.
+        
+        The pathways in the property navigate through lush green vegetation and water bodies so as to ensure that the soothing sound of nature does not leave the guest's ears as they move around discovering the property.
+        
+        The perfect blend of nature, heritage, luxury, and spiritual journey is truly one-of-a-kind.<p>
+          
+  </td>
+  </th>
+</div>
+
+  <th style="width: 150px;">
+    
+  <td><div class="zoom"><img src="images/hbg5.jpg" alt="" height=300 width=500 ></div></td>
+  </th>
+
+</table>
+
+</div>
+<!--dont touch-->
+<div class="divbg2" >
+    <br>
+   
+   <h1 style="font-size:300%; font-family:Bell MT;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Luxurious Stay</h1>
+  
+
+   <div class="row">
+    <div class="column">
+      <img src="images/ROOM5.jpeg" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/ROOM2.jpeg" alt="Snow" style="width:100%">
+    </div>
+    
+    <div class="column">
+      <img src="images/ROOM1.jpeg" alt="Snow" style="width:100%">
+    </div>
+
+
+  </div>
+  <br><br>
+<center><a href="package new.html">
+  <button class="button button1"  >VIEW ALL ACCOMODATIONS</button>
+</a>
+</center> 
+  <br><br>
+</div>
+
+
+
+<div>
+
+<CENTER>
+  <br>  <br>  <br>  <br>
+ <p style="font-family:Candara;color: rgb(255, 255, 255);" class="one">CLICK TO VIEW THE VIDEO</p>
+ <h1 style="font-size:300%; font-family: Bell MT;color:rgb(255, 255, 255);"  > KNOW MORE ABOUT SHEESH MAHAL</h1>
+ <a href="https://www.youtube.com/watch?v=O4xUB1Dkow0&t=15s"><img src="images/play.gif" alt="Snow" style="width:10%;" style="height:10%;" class="img1"></a>
+<br><br>  <br>  <br>  <br>
+
+
+</CENTER>
+
+</div>
+
+
+<div class="divbg" >
+  <CENTER>
+  <br><br>  <br> 
+  <p style="font-family:Candara;color: rgb(0, 0, 0);" class="one">EXPLORE OUR MOMENTOUS RECREATIONS</p>
+  <h1 style="font-size:300%; font-family: Bell MT;color:rgb(0, 0, 0);"  > Exotic Explorations</h1>
+ 
+</CENTER>
+
+
+<div class="row">
+  <div class="column">
+    <img src="images/1.png" alt="Snow" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="images/2.png" alt="Snow" style="width:80%">
+  </div>
+  
+  <div class="column">
+    <img src="images/3.png" alt="Snow" style="width:80%">
+  </div>
+
+
+  <div class="row">
+    <div class="column">
+      <img src="images/4.png" alt="Snow" style="width:80%">
+    </div>
+    <div class="column">
+      <img src="images/5.png" alt="Snow" style="width:80%">
+    </div>
+    
+    <div class="column">
+      <img src="images/6.png" alt="Snow" style="width:80%">
+    </div>
+
+
+
+  <br><br>  <br>  <br>  <br>
+
+</div>
+
+
+
+
+<div class="divbg3">
+  
+
+  <table style="width:100%">
+    <th style="width:100px">
+    <td>
+    
+           
+        <h2 style="font-size:300%; color: rgb(29, 21, 21);font-family: Serif;"> The Restaurant</h2>
+        <p style="font-family:Candara;color: rgb(58, 55, 55);">Welcome to SheeshMahal, one of the premier resorts in Jaipur, Rajasthan. Look no farther than an opulent, 
+            spectacular vacation if you deserve to be pampered. Not a resort, but an experience.<br><br>
+            Allow its brilliance and beauty to spread and shine throughout. Enjoy your stay at SheeshMahal, 
+            engulfed in true luxury..<p>
+            
+    </td>
+    </th>
+</div>
+    <th style="width: 150px;">
+    <td><img src="images/restro.jpg" alt="" height=300 width=500/></td>
+    </th>
+</table>
+
+
+</div>
+
+
+<div class="divbg4">
+  
+
+  <table style="width:100%">
+    <th style="width:100px">
+    <td>
+      <img src="images/spa.jpg" alt="" height=300 width=500/></td>
+    
+    
+         
+            
+    
+    </th>
+</div>
+    <th style="width: 150px;">
+    <td>  
+      <h2 style="font-size:300%; color: rgb(29, 21, 21);font-family: Serif;"> Moksha Spa</h2>
+      <p style="font-family:Candara;color: rgb(58, 55, 55);">Welcome to SheeshMahal, one of the premier resorts in Jaipur, Rajasthan. Look no farther than an opulent, 
+          spectacular vacation if you deserve to be pampered. Not a resort, but an experience.<br><br>
+          Allow its brilliance and beauty to spread and shine throughout. Enjoy your stay at SheeshMahal, 
+          engulfed in true luxury..<p></td></th>
+</table>
+
+
+</div>
+
+<div class="divbg2">
+  
+
+  <table style="width:100%">
+    <th style="width:100px">
+    <td>
+    
+           
+        <h2 style="font-size:300%; color: rgb(29, 21, 21);font-family: Serif;"> Pool in Woods</h2>
+        <p style="font-family:Candara;color: rgb(58, 55, 55);">Welcome to SheeshMahal, one of the premier resorts in Jaipur, Rajasthan. Look no farther than an opulent, 
+            spectacular vacation if you deserve to be pampered. Not a resort, but an experience.<br><br>
+            Allow its brilliance and beauty to spread and shine throughout. Enjoy your stay at SheeshMahal, 
+            engulfed in true luxury..<p>
+            
+    </td>
+    </th>
+</div>
+    <th style="width: 150px;">
+    <td><img src="images/pool.jpg" alt="" height=300 width=500/></td>
+    </th>
+</table>
+
+
+</div>
+
+
+
+
+
+
+
+<!--dont touch-->
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+
+    }
+
+
+
+
+
+    </script>
+<div class="divbg"> <br></div>
+  
+<table  style="width:100% ; background-color: rgb(39, 36, 36); ">
+  <tr style="color: white;font-family: Serif;">
+      <th><h2>About Us</h2></th>
+      <th style="width: 25%;"><h2>Explore</h2></th>
+      <th style="width: 33%;"><h2>Contact</h2></th>
+  </tr>
+  <tr style="color: rgb(202, 202, 187);">
+      <td align="center" style="font-family:Candara;" >Every facet of who we are and what we do reflects the spirit of SheeshMahal. We offer unrivaled service, comfort, 
+              and grandeur while creating meaningful and unforgettable experiences with a touch of nature. We create unique experiences 
+              with each stay by paying great attention to the tiny elements that make a huge impact. Our pleasant ambiance and subtle 
+              details aimed to please will make you feel welcome. Allow our devoted team to handle the minor things that make a great 
+              difference to your stay in the most sought-after places that mix convenience and personality.</td>
+      <td align="center" style="color: rgb(202, 202, 187);"><a  >Home<br><br><a >About Us</a><br><br><a >Contact Us</a><br><br><a>Packages</a></td>
+      <td>NH-8, Kachera Wala, Kukas,Rajasthan 302028, India<br><br>Reservation<br>81048 44520<br>96521 13529</td>
+  </tr>
+  </table>
+
+
+</body>
+</html>

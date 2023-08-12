@@ -1,0 +1,30 @@
+body{
+    padding:50px;
+}
+.container{
+    max-width: 600px;
+    margin:40px auto;
+    background-color:white;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.form-btn{
+    color: rgba(141, 81, 13, 0.767);
+
+}
+
+.button1 {
+    background-color: rgb(183, 185, 98); 
+    color: black; 
+    border: 0c;
+   
+  }
+  
+  .button1:hover {
+    background-color: #000000;
+    color: white;
+  }

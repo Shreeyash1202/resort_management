@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body{
+    background-image: url('images/NAV21.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: 100%;
+    }
+    
+      .divbg {
+        background-color: #fcfcfa;
+        width: 100%;}
+    
+    
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .container {
+      padding: 0 16px;
+    }
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .title {
+      color: grey;
+    }
+    
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .button:hover {
+      background-color: #555;
+    }
+    
+    
+    <!-- NAVBAR ---> 
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+       <script>
+          $(function() {
+             $("#includeHtml").load("nav.html");
+          });
+       </script>
+    
+       <!---->
+    </head>
+<body>
+  <div >
+
+    <!-- NAVBAR --> 
+       <div id="includeHtml"></div>
+       <!---->
+    </div>
+  <br><br><br><br><br><br><br><br>
+  <p>
+  <img src="logo1.png" alt="logo" style="width:35%" style="height:25%"></p>
+  <br><h1 style = "color:white;font-family: Garamond;text-align: center;"   > Rooms and Suites</h1> 
+
+</div>
+        <br><br><br>
+<div class="divbg">
+  <br><br><br>
+
+  <div ></div>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="images/ROOM1.jpeg" alt="Jane" style="width:100%">
+                <div class="container">
+                        <h2>Deluxe Room (Balcony)</h2>
+        <p>Only 3499/ Nignt</p>
+        <p>
+        <a href="login.php"><button class="button">Book Now</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/ROOM2.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Luxury Room</h2>
+        
+        <p>Only 5499/ Nignt</p>
+        
+        <p>
+        <a href="login.php"><button class="button">Book Now</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/room33.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Premeire Suite</h2>
+        <p>Only 9499/ Nignt</p>
+        <p>
+        <a href="login.php"><button class="button">Book Now</button></a></p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<br> <br> <br>
+
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="images/ROOM4.avif" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Family Room</h2>
+          <p>Only 4499/ Nignt</p>
+          <p>
+        <a href="login.php"><button class="button">Book Now</button></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/Deluxe room.jpeg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Dream Villa</h2>
+          <p>Only 6999/ Nignt</p>
+          <p>
+        <a href="login.php"><button class="button">Book Now</button></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="images/ROOM6.jpeg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Semi-Deluxe Room</h2>
+          <p>Only 3099/ Nignt</p>
+          <p>
+        <a href="login.php"><button class="button">Book Now</button></a></p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<table  style="width:100% ; background-color: rgb(39, 36, 36); ">
+        <tr style="color: white;font-family: Serif;">
+            <th><h2>About Us</h2></th>
+            <th style="width: 25%;"><h2>Explore</h2></th>
+            <th style="width: 33%;"><h2>Contact</h2></th>
+        </tr>
+        <tr style="color: rgb(202, 202, 187);">
+            <td align="center" style="font-family:Candara;" >Every facet of who we are and what we do reflects the spirit of SheeshMahal. We offer unrivaled service, comfort, 
+                    and grandeur while creating meaningful and unforgettable experiences with a touch of nature. We create unique experiences 
+                    with each stay by paying great attention to the tiny elements that make a huge impact. Our pleasant ambiance and subtle 
+                    details aimed to please will make you feel welcome. Allow our devoted team to handle the minor things that make a great 
+                    difference to your stay in the most sought-after places that mix convenience and personality.</td>
+            <td align="center" >Home<br><br>About Us<br><br>Contact Us<br><br>Packages</td>
+            <td>NH-8, Kachera Wala, Kukas,Rajasthan 302028, India<br><br>Reservation<br>81048 44520<br>96521 13529</td>
+        </tr>
+        </table>
+
+</body>
+</html>
